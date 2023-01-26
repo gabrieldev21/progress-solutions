@@ -1,11 +1,11 @@
 import { ReactNode } from "react";
 import Head from "next/head";
-import { Heebo } from "@next/font/google";
+import { Montserrat } from "@next/font/google";
 
 import { Header } from "components/Header";
 import * as S from "./styled";
 
-const lang = Heebo({
+const lang = Montserrat({
   weight: ["400"],
   style: ["normal"],
   subsets: ["latin"],
